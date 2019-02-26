@@ -1,0 +1,63 @@
+<html>
+<head>
+<title>Form Page</title>
+</head>
+<body>
+<h1>FIRST REGISTRATION PAGE</h1>
+<form id="form1" method="get" enctype="multipart/form-data" >
+Select Date:<br>
+<input type="date" name="dt" required><br>
+
+Select color:<br>
+<input type="color" name="cl" required ><br>
+
+
+<input type="text" name="fname" required placeholder="First Name"><br>
+
+<input type="text" name="lname" required placeholder="Last Name"><br>
+Email ID:<br>
+<input type="email" name="email" required><br>
+Password:<br>
+<input type="password" name="pass" value="123456" required><br>
+Phone No:<br>
+<input type="number" name="num" style=" width:100px;" required><br>
+Gender:<br>
+<input type="radio" name="gen" value="male" required>Male
+<input type="radio" name="gen" value="female" required>Female
+<br>
+No of Seat:<br>
+<select name="seat">
+<option value="1 Seat">abc</option>
+<option value="2 Seat">2 Seat</option>
+<option value="3 Seat"> 3 Seat</option>
+<option value="4 Seat">4 Seat</option>
+<option value="5 Seat">5 Seat</option>
+<option value="6 Seat">6 Seat</option>
+</select><br>
+List<br>
+<input list="browsers">
+<br>
+<datalist id="browsers">
+<option value="IE 10">IE 10</option>
+<option value="Firefox">Firefox</option>
+<option value="Opera">Opera</option>
+<option value="Chrome">Chrome</option>
+</datalist>
+Courses:<br>
+<input type="checkbox" name="course" value="web design">Web Designing
+<input type="checkbox" name="course" value="arduino">Arduino
+<input type="checkbox" name="course" value="web development">Web Development
+<input type="checkbox" name="course" value="Quadcopter">Quadcopter
+
+Query:<br>
+<textarea name="query" required></textarea> <br>
+<input type="submit" name="submit" value="submit">
+
+Profile Pic:<br>
+<input type="file" formenctype="multipart/form-data"><br>
+
+
+ 
+</form>
+</body>
+</html>

@@ -1,0 +1,93 @@
+@charset "ISO-8859-1";
+ul {
+    list-style-type: none;
+    margin: 10px;
+    overflow:hidden;
+    background-color: #f1f1f1;
+}
+li{
+float:left;
+}
+li a {
+     display: block;
+    color: #006400;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+footer {
+	position:fixed;
+    background-color: #b30000;
+    padding: 1px;
+    text-align: center;
+    color: white;
+    position:relative;
+    bottom: 0;
+    left: 0;
+   bottom: 0;
+  
+    width:100%;
+    margin: 0 auto;
+}
+
+html{
+height:100%;
+position:relative;
+
+}
+body {
+    font-family: Arial;
+}
+article{
+    float: right;
+    padding: 30px;
+    width: 95%;
+    background-color: #82E0AA;
+    height: 500px;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+}
+.container {
+   
+    padding: 16px;
+}
